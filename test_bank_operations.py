@@ -23,7 +23,7 @@ while(True):
         print("Your new balance after depositing {} is {}".format(b, accountBalance))
     elif a == 3:
         print("Your balance is {}".format(accountBalance))
-    exitFlag = int(input("Enter (1) to continue and (2) to exit "))
-    if exitFlag == 2:
+    exitFlag = int(input("Enter (1) to exit and any other number to continue "))
+    if exitFlag == 1:
         print("Exiting the test bank")
         break
