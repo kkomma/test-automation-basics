@@ -1,11 +1,18 @@
-a = 100
-b = 5
+while(True):
 
-if a+b == 15:
-    print("a+b == 15")
-elif a-b == 7:
-    print("a-b == 5")
-elif a*b == 56:
-    print("a*b == 50")
-else:
-    print("none of the above conditions are true")
+    a = int(input("enter a value: "))
+    b = int(input("enter b value: "))
+
+    if a + b == 15:
+        print(f'{a} + {b} = {a+b}')
+    elif a - b == 4:
+        print(f'{a} - {b} = {a-b}')
+    elif a * b == 36:
+        print(f'{a} * {b} = {a*b}')
+    else:
+        print("none of the above conditions are true")
+
+    exitFlag = int(input("Enter (1) to exit and any other number to continue "))
+    if exitFlag == 1:
+        print("Exiting the program")
+        break
