@@ -14,6 +14,12 @@ Basic building blocks that a test automation engineer would learn to start off t
 ### Setup Python, PyCharm and Selenium:
 https://www.softwaretestinghelp.com/selenium-python-tutorial/
 
+### Selenium execution environment and architecture
+https://www.selenium.dev/
+https://docs.saucelabs.com/web-apps/automated-testing/selenium/
+https://docs.saucelabs.com/img/selenium/selenium-diagram.png
+https://digital.ai/catalyst-blog/boost-your-test-automation-with-selenium-webdriver-internals
+
 ### Chrome console getting/debugging web page selenium locators(cmd+opt+i-mac; F12-win):
 https://www.bitdegree.org/learn/chrome-command-line
 
