@@ -1,0 +1,10 @@
+a = "automation makes testing easy"
+print("string length")
+print(len(a))
+print("converting string to chars - for loop example")
+print([char for char in a])
+print("converting string to chars - list example")
+print(list(a))
+print("string split by delimeter")
+b = a.split(" ")
+print(b)
