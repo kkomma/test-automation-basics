@@ -1,4 +1,5 @@
 import requests
+import json
 
 for page in range(1,3):
     apiFullUrl = 'https://reqres.in/api/users?page='+str(page)
@@ -13,3 +14,4 @@ for page in range(1,3):
         print(element.get("id"))
     print("**********end***************")
     print("")
+    print(json.dumps(responseData,indent=4))
