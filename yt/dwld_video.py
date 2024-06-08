@@ -13,9 +13,7 @@ import os.path
 # first_10_minutes = song[:ten_minutes]
 # first_10_minutes.export("good_morning_10.mp3", format="mp3")
 
-video_urls = ['https://www.youtube.com/watch?v=5hb3qzQN2U8','https://www.youtube.com/watch?v=va5byI4JKl4',
-    # 'https://www.youtube.com/watch?v=FuddjdkstQM'
-        ]
+video_urls = ['https://www.youtube.com/watch?v=HjpwGgmt57U']        
 s=video_urls[-1]
 vv=s.split('?v=')
 print(vv[1])
