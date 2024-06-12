@@ -1,5 +1,12 @@
 import itertools
 
+# A permutation is an act of arranging objects or numbers in order. 
+# Combinations are the way of selecting objects or numbers from a group of objects or collections, 
+# in such a way that the order of the objects does not matter.
+# An example of permutations is the number of 2 letter words that can be formed by using the letters in a word say, GREAT; 5P_2 = 5!/(5-2)! 
+# An example of combinations is in how many combinations we can write the words using the vowels of the word GREAT; 5C_2 =5!/[2! (5-2)!]
+# The formula for permutations is: nPr = n!/(n-r)! The formula for combinations is: nCr = n!/[r! (n-r)!]
+
 # Example 1: Generate all permutations of a string
 def generate_permutations(s):
     return [''.join(p) for p in itertools.permutations(s)]
