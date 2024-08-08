@@ -27,12 +27,4 @@ class ArrangeZerosOnes:
 
 if __name__ == '__main__':
     azo = ArrangeZerosOnes()
-    print(azo.arrange_zeros_ones_alternative([0, 1, 0, 1, 1, 1, 0, 0, 1, 0]))
-    print(azo.arrange_zeros_ones_alternative([0, 1, 0, 1, 1, 1, 0, 0, 1, 0]))  # [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
-    print('---')
-    print(azo.arrange_zeros_ones([0, 1, 0, 1, 1, 1, 0, 0, 1, 0]))  # [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
-    print(azo.arrange_zeros_ones([0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1]))  # [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
-    print(azo.arrange_zeros_ones([0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0]))  # [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
-    print(azo.arrange_zeros_ones([0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1]))  # [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
-    print(azo.arrange_zeros_ones([0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1]))  # [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
-    print(azo.arrange_zeros_ones([0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0]))  # [0, 0, 0, 0, 0,
+    print(azo.arrange_zeros_ones_alternative([0, 1, 0, 1, 1, 1, 0, 0, 1, 0]))    

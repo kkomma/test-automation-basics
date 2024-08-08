@@ -1,3 +1,4 @@
+
 from appium import webdriver
 import time
 
@@ -9,6 +10,8 @@ desired_capabilities = {
     "automationName": "XCUITest",
     "app": "/path/to/your/app.ipa"
 }
+
+#https://medium.com/@BuzonXXXX/python-appium-ios-b47cfd60de5c
 
 # Initialize the driver
 driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_capabilities)

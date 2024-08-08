@@ -4,6 +4,7 @@ def find_all_anagrams(strings):
     anagrams = defaultdict(list)
     
     for string in strings:
+        # sorted_string = ''.join(sorted(string))
         sorted_string = ''.join(sorted(string))
         anagrams[sorted_string].append(string)
         print('map', anagrams)

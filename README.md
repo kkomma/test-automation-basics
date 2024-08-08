@@ -6,7 +6,7 @@ Basic building blocks that a test automation engineer would learn to start off t
 - Software testing life cycle
 - Manual testing of E-commerce and alike websites
 - Manual testing of APIs (application programming interface)
-    - RESTful (REpresentational State Transfer)
+- RESTful (REpresentational State Transfer)
 - Writing test cases
 - Automating the manual testing
 
