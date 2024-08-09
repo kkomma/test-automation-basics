@@ -36,4 +36,11 @@ https://restfulapi.net/
 https://docs.google.com/spreadsheets/d/18SO8_i6hJYF6cgBRUpp2WQvBjAupr1NiFzOyQor4f8w/
 
 
+### Good testing framework codebase:
+https://github.com/itkhanz/selenium-frameworks
 
+https://github.com/itkhanz/Appium-Mobile-App-Testing
+
+https://github.com/itkhanz/REST-Assured-API-Testing
+
+https://github.com/itkhanz/Cypress-Framework
