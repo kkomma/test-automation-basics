@@ -44,3 +44,11 @@ https://github.com/itkhanz/Appium-Mobile-App-Testing
 https://github.com/itkhanz/REST-Assured-API-Testing
 
 https://github.com/itkhanz/Cypress-Framework
+
+https://courtneyzhan.medium.com/basic-appium-automation-part-1-appium-locators-9d7b649d3388
+
+https://courtneyzhan.medium.com/basic-appium-automation-part-2-using-locators-ios-448a073480b7
+
+https://courtneyzhan.medium.com/basic-appium-automation-part-3-using-locators-android-c3863bc77d2b
+
+https://courtneyzhan.medium.com/drive-a-real-ios-device-with-appium-2-xcuitest-5d5b47c4180
