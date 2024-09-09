@@ -25,7 +25,9 @@ class TestAppium(unittest.TestCase):
 
     def test_find_battery(self) -> None:
         el = self.driver.find_element(by=AppiumBy.XPATH, value='//*[@text="Battery"]')
+        self.driver.implicitly_wait(10)
         el.click()
+        
 
 if __name__ == '__main__':
     unittest.main()
